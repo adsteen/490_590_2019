@@ -60,5 +60,15 @@ summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 2
       <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>/490_590_2019/1/01/01/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/1/01/01/</guid>
+      <description> git &amp;mdash; title: Week 1 homework author: ~ date: &amp;lsquo;2019-08-23&amp;rsquo; slug: week-1-homework categories: []
+tags: [] Assignment  Write up a 1-page (or less) bulleted set of guidelines for best practices in reproducible research Write a paragraph describing the &amp;ldquo;Reinhart-Rogoff affair&amp;rdquo; and what it has to do with open science and reproducible data analysis. Install the following on your laptop:  R Rstudio git Bash, if using Windows (see syllabus)  Using the RStudio console (usually the lower-left hand window), calculate 2 + 2 Using the Bash console, having installed git, determine your version of the git software by typing git --version and pressing enter  </description>
+    </item>
+    
   </channel>
 </rss>
