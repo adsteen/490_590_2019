@@ -22,6 +22,11 @@
 
 
 
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
 <link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
 <link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
 
@@ -57,7 +62,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
 
     <h1 class="article-title">Week 2 homework</h1>
@@ -67,7 +72,64 @@
     
 
     <div class="article-content">
-      <p>Week 2 homework is to be announced.</p>
+      
+
+<h1 id="tasks">Tasks:</h1>
+
+<h2 id="setup">Setup</h2>
+
+<ul>
+<li>Create a directory for this class. Place it somewhere logical on your hard drive (e.g. &ldquo;~/Documents/classes/GEOL_590&rdquo;, not &ldquo;~/Desktop/stuff&rdquo;).</li>
+<li>Create an RStudio project in that directory.</li>
+<li>Create the following directories within your project directory. Pay attention to capitalization!
+
+<ul>
+<li>data</li>
+<li>R</li>
+<li>plots</li>
+<li>misc</li>
+</ul></li>
+<li>Download <a href="https://www.dropbox.com/s/67zhiqa0ep0d7kr/med_enz.csv?dl=0">all_med_activities.csv</a> and save it to your <code>data</code> directory</li>
+<li>Open RStudio and run the following command, to install the <strong>tidyverse</strong> set of packages: <code>install.packages(&quot;tidyverse&quot;)</code>. You will not need to do this again, until you install a new major version of R.</li>
+</ul>
+
+<h2 id="basic-r-operations">Basic R operations</h2>
+
+<p>Write a script that will do the following:</p>
+
+<ul>
+<li>Load the <strong>tidyverse</strong> set of packages using the <code>library()</code> function
+
+<ul>
+<li>Reminder: you have to install packages once in your life (or at least, once per major version of R) by running <code>install.packages(&quot;tidyverse&quot;)</code></li>
+</ul></li>
+<li>Read the (something) file that I provide using the <code>read.csv()</code> function and assign it to an object called <strong>med_enz</strong> using the <code>&lt;-</code> operator</li>
+<li>Determine what class <strong>med_enz</strong> belongs to using the <code>class()</code> function</li>
+<li>Determine the structure of <strong>med_enz</strong> using the <code>str()</code> function</li>
+<li>Determine the number of rows of <strong>med_enz</strong> using the <code>nrow()</code> function</li>
+<li>Get a &lsquo;glimpse&rsquo; of <strong>med_enz</strong> using the <code>glimpse()</code> function</li>
+<li>Multiply the <em>activity.nM.hr</em> column by 1000 using the <code>$</code> operator and put the result in a column of <strong>activity.pM.hr</strong></li>
+<li>Divide the <em>activity.nM.hr</em> column by 1000 using the <code>mutate</code> function from the <strong>dplyr</strong> package (which is loaded as a part of <strong>tidyverse</strong>) and put it in a column named <strong>activity.uM.hr</strong></li>
+
+<li><p>Print and save a histogram of the <em>activity.nM.hr</em> column using the following code, which we will talk more about later:</p>
+
+<pre><code>p &lt;- ggplot(data = med_enz, aes(x = activity.nM.hr)) + 
+geom_hist()
+print(p)
+ggsave(filename = &quot;plots/hmk_2_plot.png&quot;, plot = p, height = 3, width = 4, units = &quot;in&quot;, dpi = 300)
+</code></pre></li>
+</ul>
+
+<h2 id="running-scripts">Running Scripts</h2>
+
+<p>Run that script the following ways:
+* Line-by-line in RStudio
+* Using the &lsquo;source&rsquo; button in RStudio
+* From the command line, using the <code>Rscript</code> command. Note: pay attention to what directory you are in, and what directory your new script is in!</p>
+
+<h2 id="analysis">Analysis</h2>
+
+<p>What is the difference between the results that are printed in the console when you run line-by-line, vs when you run your script using the &lsquo;source&rsquo; button or the <code>Rscript</code> command?</p>
 
     </div>
   </article>
@@ -91,7 +153,22 @@
     </div>
     
 
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
     
+<script src="/490_590_2019/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 
     
   </body>

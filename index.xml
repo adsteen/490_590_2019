@@ -27,7 +27,7 @@ More to come soon.</description>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/2019/08/23/week-2-homework/</guid>
-      <description>Week 2 homework is to be announced.</description>
+      <description>Tasks: Setup  Create a directory for this class. Place it somewhere logical on your hard drive (e.g. &amp;ldquo;~/Documents/classes/GEOL_590&amp;rdquo;, not &amp;ldquo;~/Desktop/stuff&amp;rdquo;). Create an RStudio project in that directory. Create the following directories within your project directory. Pay attention to capitalization!  data R plots misc  Download all_med_activities.csv and save it to your data directory Open RStudio and run the following command, to install the tidyverse set of packages: install.</description>
     </item>
     
     <item>
