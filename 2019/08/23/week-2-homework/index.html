@@ -110,7 +110,7 @@
 <li><p>Print and save a histogram of the <em>activity.nM.hr</em> column using the following code, which we will talk more about later:</p>
 
 <pre><code>p &lt;- ggplot(data = med_enz, aes(x = activity.nM.hr)) + 
-geom_hist()
+geom_histogram()
 print(p)
 ggsave(filename = &quot;plots/hmk_2_plot.png&quot;, plot = p, height = 3, width = 4, units = &quot;in&quot;, dpi = 300)
 </code></pre></li>
