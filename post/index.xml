@@ -17,7 +17,7 @@
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/2019/08/25/lecture-2-r-rstudio-and-bash/</guid>
-      <description>RStudio, R, and directories * Rstudio vs R * Other ways to run R * within command line: &amp;quot;R&amp;quot;  From Software Carpentry Very brief intro to some key things you can do with the shell. Note that these are condensed from the Software Carpentry shell lesson
+      <description>RStudio, R, and directories  Rstudio vs R Other ways to run R interactively within command line: &amp;ldquo;R&amp;rdquo; Rscript from the command line: more on this later  From Software Carpentry Very brief intro to some key things you can do with the shell. Note that these are condensed from the Software Carpentry shell lesson
  pwd (note windows vs OSX/Linux)  note / means two different things; and in Windows it&amp;rsquo;s \ Note ~ vs /  cd  .</description>
     </item>
     
