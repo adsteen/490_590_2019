@@ -21,6 +21,16 @@
     </item>
     
     <item>
+      <title>Lecture 3 notes: RStudio and the beginnings of R</title>
+      <link>/490_590_2019/2019/08/28/lecture-3-notes/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/28/lecture-3-notes/</guid>
+      <description>note The content of this lesson is taken from one of Software Carpentry&amp;rsquo;s R lessions
+Some key points are noted below, but definitely look over that lesson (which we will continue to work from). This material goes a bit beyond what we covered in lecture 3. We will focus on creating plots the week of Sept 4, but we will come back to these basic operations as the semester progresses.</description>
+    </item>
+    
+    <item>
       <title>Lecture 2: R, RStudio, and Bash</title>
       <link>/490_590_2019/2019/08/25/lecture-2-r-rstudio-and-bash/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>

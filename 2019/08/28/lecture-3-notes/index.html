@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>Lecture 3 notes: RStudio and the beginnings of R - Geology 490/590 2019</title>
+<meta property="og:title" content="Lecture 3 notes: RStudio and the beginnings of R - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Lecture 3 notes: RStudio and the beginnings of R</h1>
+
+    
+    <span class="article-date">2019-08-28</span>
+    
+
+    <div class="article-content">
+      
+
+<p><strong>note</strong> The content of this lesson is taken from one of Software Carpentry&rsquo;s <a href="http://swcarpentry.github.io/r-novice-gapminder/">R lessions</a></p>
+
+<p>Some key points are noted below, but definitely look over that lesson (which we will continue to work from). This material goes a bit beyond what we covered in lecture 3. We will focus on creating plots the week of Sept 4, but we will come back to these basic operations as the semester progresses.</p>
+
+<h1 id="review">Review</h1>
+
+<ul>
+<li>R vs RStudio</li>
+<li>projects in R</li>
+</ul>
+
+<h1 id="data-types">Data types</h1>
+
+<ul>
+<li>Atomic vectors
+
+<ul>
+<li>I will refer to these just as vectors</li>
+<li>1-dimensional</li>
+<li>all objects of the same type (e.g., &ldquo;character&rdquo;, &ldquo;integer&rdquo;, &ldquo;numeric&rdquo; (aka double-precision), &ldquo;factor&rdquo;)</li>
+<li>Pay special attention to factors, which can be surprising</li>
+</ul></li>
+<li>Matrices
+
+<ul>
+<li>A 2-dimensional vector. We won&rsquo;t use them much, but they do show up occasionally, especially in older code/examples.</li>
+</ul></li>
+<li>Lists
+
+<ul>
+<li>Like a bag: you can throw anything in it you like</li>
+</ul></li>
+<li>Data frames
+
+<ul>
+<li>Think of them like a table: each row is an &lsquo;observation&rsquo;, and each column is a variable</li>
+<li>Consist of vectors, each of which must be the same length but which may be different data types</li>
+<li>Properly speaking, they are a list of vectors</li>
+<li>The <strong>tidyverse</strong> set of packages - really it is almost more of a data analysis paradigm than a specific piece of software - really wants you to use data frames. Base R tends to make much more direct use of matrices, vectors, and lists.</li>
+</ul></li>
+</ul>
+
+<h1 id="basic-input-output-and-data-manipulation">Basic input/output and data manipulation</h1>
+
+<h2 id="creating-inputting-data">Creating / inputting data</h2>
+
+<ul>
+<li><code>c()</code></li>
+<li><code>data.frame()</code></li>
+<li><code>read.csv()</code> (<strong>tidyverse</strong> version: <code>read_csv()</code>)</li>
+<li><code>write.csv()</code> (<strong>tidyverse</strong> version: <code>write_csv()</code>)</li>
+</ul>
+
+<h2 id="examining-your-objects">Examining your objects</h2>
+
+<ul>
+<li><code>str()</code></li>
+<li><code>class()</code></li>
+<li><code>typeof()</code>
+
+<ul>
+<li>Note: compare <code>class(mtcars)</code> to <code>typeof(mtcars)</code>: what is the difference, and why?</li>
+</ul></li>
+<li><code>print()</code>
+
+<ul>
+<li>if you type <code>mtcars</code>, what happens, and why? What about if you type <code>data.frame</code></li>
+</ul></li>
+<li><code>length()</code>
+
+<ul>
+<li>What does <code>length(mtcars)</code> return? Why?</li>
+</ul></li>
+</ul>
+
+<h2 id="manipulating-objects">Manipulating objects</h2>
+
+<ul>
+<li>using <code>$</code> to access columns of data frames</li>
+<li>using <code>[]</code> to subset data frames
+
+<ul>
+<li><code>mtcars[3, 4]</code></li>
+<li><code>mtcars[ , &quot;mpg&quot;]</code></li>
+<li><code>mtcars[&quot;Toyota Corolla&quot;, ]</code></li>
+<li><code>mtcars[5:7, &quot;mpg&quot;]</code></li>
+<li>Pay special attention to what each of these returns!</li>
+</ul></li>
+<li><code>subset()</code></li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/490_590_2019/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
