@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Week 1 homework</title>
+      <link>/490_590_2019/2019/08/23/week-1-homework/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/23/week-1-homework/</guid>
+      <description> Assignment  Write up a 1-page (or less) bulleted set of guidelines for best practices in reproducible research Write a paragraph describing the &amp;ldquo;Reinhart-Rogoff affair&amp;rdquo; and what it has to do with open science and reproducible data analysis. Install the following on your laptop:  R Rstudio git Bash, if using Windows (see syllabus)  Using the RStudio console (usually the lower-left hand window), calculate 2 + 2 Using the Bash console, having installed git, determine your version of the git software by typing git --version and pressing enter  </description>
+    </item>
+    
+    <item>
       <title>Week 2 homework</title>
       <link>/490_590_2019/2019/08/23/week-2-homework/</link>
       <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>

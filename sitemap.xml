@@ -4,19 +4,24 @@
   
   <url>
     <loc>/490_590_2019/</loc>
-    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/2019/08/29/homework-3/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/post/</loc>
+    <lastmod>2019-08-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/490_590_2019/2019/08/25/lecture-2-r-rstudio-and-bash/</loc>
     <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/post/</loc>
-    <lastmod>2019-08-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -28,6 +33,11 @@
     <loc>/490_590_2019/categories/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/2019/08/23/week-1-homework/</loc>
+    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -49,11 +59,6 @@
   <url>
     <loc>/490_590_2019/categories/reading/</loc>
     <lastmod>2019-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/1/01/01/</loc>
     <priority>0</priority>
   </url>
   
