@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>GEOL 490/590 style guide - Geology 490/590 2019</title>
+<meta property="og:title" content="GEOL 490/590 style guide - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">GEOL 490/590 style guide</h1>
+
+    
+    <span class="article-date">2019-09-03</span>
+    
+
+    <div class="article-content">
+      
+
+<h1 id="style-is-substance">Style <em>is</em> substance</h1>
+
+<p>Donald Knuth famously wrote &ldquo;Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.&rdquo; (<a href="http://www.literateprogramming.com/knuthweb.pdf">Knuth, 1983, Literate Programming</a>).</p>
+
+<p>Accordingly, it is important to write our code so that it is easily readable by humans. What defines easily readable? Well, it helps for the whole community of readers to be working from a common set of rules. We&rsquo;ll adopt Hadley Wickham&rsquo;s <a href="https://style.tidyverse.org/">tidyverse style guide</a> for our class, with a few modifications listed below.</p>
+
+<h1 id="modifications-for-geol-490-590">Modifications for GEOL <sup>490</sup>&frasl;<sub>590</sub></h1>
+
+<p>Much of the tidyverse style guide is focused on writing packages for use by other R users. At first, we will mainly need to pay attention to what is in sections <a href="https://style.tidyverse.org/files.html">1</a> and <a href="https://style.tidyverse.org/syntax.html">2</a>, which deal with naming files and syntax. I&rsquo;m going to add a few other rules that will be particularly useful for us.</p>
+
+<h2 id="commenting">Commenting</h2>
+
+<ul>
+<li>All scripts should begin with lines of comments that
+
+<ul>
+<li>Explain the general purpose of the script</li>
+<li>Reference the script to an assignment, if necessary (e.g., <code>For Homework 4</code>)</li>
+<li>Include the name of the author: not strictly necessary, but sometimes useful when we&rsquo;re passing around scripts.</li>
+</ul></li>
+
+<li><p>The scope of the comment should be reflected by its position and the number of lines it occupies.</p>
+
+<ul>
+<li><p>Script header comments are at least 3 lines:</p>
+
+<pre><code>#########
+# Script for Homework 4, badplot assignment
+#########
+</code></pre></li>
+
+<li><p>Comments that refer to a few lines of code will typically occupy a single line</p></li>
+
+<li><p>Comments on a single part of a piped expression or plot should follow the relevant line. For instance:</p>
+
+<pre><code>p &lt;- ggplot(mtcars, aes(x = mpg, y = qsec)) + 
+geom_point() + 
+geom_smooth(method = &quot;lm&quot;) + # Point of analysis is to estimate a relationship between efficiency and speed
+theme_minimal()
+</code></pre></li>
+</ul></li>
+
+<li><p>Remember that comments should explain <strong>why</strong> the code was written, not <strong>how</strong> the code works</p></li>
+</ul>
+
+<h2 id="script-organization">Script organization</h2>
+
+<ol>
+<li>Start with header comment</li>
+<li>Load all libraries next</li>
+<li>Define any variables that are used throughout the script (e.g., <code>fig.width = 7.5</code>) and graphical theme (<code>theme_set(theme_classic())</code>)</li>
+<li>Organize the script in hierarchical sections, defined by comments</li>
+</ol>
+
+<h2 id="object-names">Object names</h2>
+
+<ul>
+<li>Name lists, data frames, and function in <code>snake_case</code> using a <code>_</code> separator:
+<code>med_enzymes</code></li>
+<li>Name vectors in <code>snake.case</code> using a <code>.</code> separator: <code>site.temperatures</code></li>
+</ul>
+
+<h2 id="modifications">Modifications</h2>
+
+<ul>
+<li>We should modify this guide as we progress through the class! This will be a good way to practice forking and making pull requests in git.</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

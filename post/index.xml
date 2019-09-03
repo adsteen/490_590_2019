@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 03 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>GEOL 490/590 style guide</title>
+      <link>/490_590_2019/2019/09/03/geol-490-590-style-guide/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/03/geol-490-590-style-guide/</guid>
+      <description>Style is substance Donald Knuth famously wrote &amp;ldquo;Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.&amp;rdquo; (Knuth, 1983, Literate Programming).
+Accordingly, it is important to write our code so that it is easily readable by humans. What defines easily readable? Well, it helps for the whole community of readers to be working from a common set of rules.</description>
+    </item>
     
     <item>
       <title>Homework 3</title>
