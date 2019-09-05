@@ -4,19 +4,24 @@
   
   <url>
     <loc>/490_590_2019/</loc>
-    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/2019/09/05/homework-3-completion-checklist/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/post/</loc>
+    <lastmod>2019-09-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/490_590_2019/2019/09/04/lecture-notes-introduction-to-ggplot2/</loc>
     <lastmod>2019-09-04T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/post/</loc>
-    <lastmod>2019-09-04T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

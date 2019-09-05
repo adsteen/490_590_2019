@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 04 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homework 3 completion checklist</title>
+      <link>/490_590_2019/2019/09/05/homework-3-completion-checklist/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/05/homework-3-completion-checklist/</guid>
+      <description>The completion checklist that I will hand out is posted here.
+Please note that in the future we will get strict about the style guide, but at the moment I would just like you to generally write your code in a legible way (appropriate spacing between blocks of code, avoid wacky line breaks and terrible variable names, etc).
+Finally note that, in general, the homework rubrics will be the same:</description>
+    </item>
     
     <item>
       <title>Lecture notes: Introduction to ggplot2</title>
@@ -92,7 +103,7 @@ Some key points are noted below, but definitely look over that lesson (which we 
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/1/01/01/lecture-notes-intro-to-ggplot2/</guid>
-      <description>Reminders  We can load data from text files using read.csv() (base R) or read_csv() (tidyverse)  A csv file (“comma-separated value”) is a text file where the columns are separated by commas Because csv files are both easily machine-readable and human-readable, they are probably the best choice for storing data, unless the data files are very big or very complex. In general, you should store your data as .</description>
+      <description></description>
     </item>
     
   </channel>
