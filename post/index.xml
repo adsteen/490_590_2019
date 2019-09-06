@@ -6,10 +6,20 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homework 4: BADPLOT</title>
+      <link>/490_590_2019/2019/09/06/homework-4-badplot/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/06/homework-4-badplot/</guid>
+      <description>It&amp;rsquo;s the most wonderful time of the year Homework 4 is simple: Considering what you have learned from Kieran Healy and Claus Wilke about what makes a good data visualization, use ggplot2 and any data you choose to make the worst data visualization you can.
+Before the start of class on Friday, upload a .png file of your plot to this link. The plot should be roughly 5 inches wide by 4 inches high, encoded at 300 dpi.</description>
+    </item>
     
     <item>
       <title>Homework 3 completion checklist</title>
