@@ -158,12 +158,16 @@ ggplot(mapping = aes(x = gdpPercap, y = lifeExp), data = gapminder) +
   facet_wrap(~ continent) +
   theme(axis.text.x = element_text(angle = -45, hjust = -1))</code></pre>
 <p><img src="/490_590_2019/post/2019-09-09-lecture-notes-more-about-ggplot2_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<p>In the plot above: pay attention to:
-* The meaning of each mapping
-* What it means that <code>x</code>, <code>y</code>, etc, are inside an <code>aes()</code> function, but <code>alpha = 0.3</code> isn’t. What would happen if we put <code>alpha = 0.3</code> inside the <code>aes()</code> call? Would that be a good idea?
-* Changing the way that color is mapped to <code>continent</code> using <code>scale_color_discrete()</code>
-* Creating ‘facets’ (subplots) using <code>facet_wrap()</code> or <code>facet_grid()</code>
-* Note <code>~</code> which creates an R <a href="https://rviews.rstudio.com/2017/02/01/the-r-formula-method-the-good-parts/">formula</a></p>
+<p>In the plot above: pay attention to:</p>
+<ul>
+<li>The meaning of each mapping</li>
+<li>What it means that <code>x</code>, <code>y</code>, etc, are inside an <code>aes()</code> function, but <code>alpha = 0.3</code> isn’t. What would happen if we put <code>alpha = 0.3</code> inside the <code>aes()</code> call? Would that be a good idea?</li>
+<li>Changing the way that color is mapped to <code>continent</code> using <code>scale_color_discrete()</code></li>
+<li>Creating ‘facets’ (subplots) using <code>facet_wrap()</code> or <code>facet_grid()</code>
+<ul>
+<li>Note <code>~</code> which creates an R <a href="https://rviews.rstudio.com/2017/02/01/the-r-formula-method-the-good-parts/">formula</a></li>
+</ul></li>
+</ul>
 </div>
 
     </div>
