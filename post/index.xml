@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 09 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture notes: ggplot2 part 3, multiple data sets and themes</title>
+      <link>/490_590_2019/2019/09/10/lecture-notes-ggplot2-part-3-multiple-data-sets-and-themes/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/10/lecture-notes-ggplot2-part-3-multiple-data-sets-and-themes/</guid>
+      <description>Good style for writing ggplot code ggplot2 can be though of as building a plot from layers (data, then mappings, then geoms, etc…) so our code should reflect this.
+Accordingly, we should write the code in a specific order:
+ggplot() call geoms (note that each geom is plotted on top of the previous one) stats scales facets themes and ggtitle()  ggplot2 requires that the ggplot function comes first, but after that it will allow you to write the plot in any order.</description>
+    </item>
     
     <item>
       <title>Lecture notes: More about ggplot2</title>
