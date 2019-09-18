@@ -6,10 +6,21 @@
     <description>Recent content on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 17 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Homework 5: Basic R and intro to the tidyverse</title>
+      <link>/490_590_2019/2019/09/18/homework-5-basic-r-and-intro-to-the-tidyverse/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/18/homework-5-basic-r-and-intro-to-the-tidyverse/</guid>
+      <description>Vector coercion: Explain what data type each vector will be coerced to, and why.  c(TRUE, FALSE) c(&amp;quot;a&amp;quot;, FALSE) c(7, &amp;quot;f&amp;quot;)  Factors Load the gapminder data frame via the gapminder package:
+library(gapminder) Create a new data frame called gapminder_fake. Add a new row, before all other rows, with the following values:
+ country = “Florin” continent = “Antarctica” year = 2020 lifeExp = 83 pop = 7 gdpPercap = 1023    Subsetting data frames and lists in base R Subsetting data frames Create a data frame that consists of the first 5 rows of gapminder</description>
+    </item>
     
     <item>
       <title>Lecture notes: Subsetting and working with data frames</title>
