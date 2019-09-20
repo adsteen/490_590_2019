@@ -21,15 +21,6 @@
     </item>
     
     <item>
-      <title>Lecture notes: Intro to dplyr</title>
-      <link>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</link>
-      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
-      
-      <guid>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</guid>
-      <description>Resources  Original paper (although note that the package that paper describes, plyr, has been replaced by the tidyverse package dplyr, which has totally different syntax.) Software Carpentry lessons:  Split-apply-combine conceptual introduction Implementation in dplyr Note that, for some reason, the first Software Carpentry lesson is in plyr and the second is is in dplyr. This really makes no sense, as dplyr is the replacement for plyr - you’re not supposed to use them at the same time, and indeed loading them at the same time will cause some really weird stuff to happen.</description>
-    </item>
-    
-    <item>
       <title>Homework 5: Basic R and intro to the tidyverse</title>
       <link>/490_590_2019/2019/09/18/homework-5-basic-r-and-intro-to-the-tidyverse/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
