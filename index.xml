@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Lecture notes: Join operations using dplyr</title>
+      <link>/490_590_2019/2019/09/25/lecture-notes-join-operations-using-dplyr/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/25/lecture-notes-join-operations-using-dplyr/</guid>
+      <description>Resources  The “two-table verbs” vignette for dplyr.  Note: a vignette is a how-to guide for a package, and any reputable package will have one. A vignette complements the function documentation by demonstrating how you might use the package in real life, with concrete examples.  The relational data chapter in R for Data Science.  To learn about joining data frames, we’ll use the data sets in the nycflights13 package.</description>
+    </item>
+    
+    <item>
       <title>Script for lecture, 25 Sept</title>
       <link>/490_590_2019/2019/09/25/script-for-lecture-25-sept/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
