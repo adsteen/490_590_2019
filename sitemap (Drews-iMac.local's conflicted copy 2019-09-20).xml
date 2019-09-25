@@ -4,19 +4,7 @@
   
   <url>
     <loc>/490_590_2019/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/post/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -26,6 +14,11 @@
   
   <url>
     <loc>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</loc>
+    <lastmod>2019-09-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/post/</loc>
     <lastmod>2019-09-20T00:00:00+00:00</lastmod>
   </url>
   
@@ -97,7 +90,11 @@
   <url>
     <loc>/490_590_2019/categories/</loc>
     <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/categories/homework/</loc>
+    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -111,9 +108,8 @@
   </url>
   
   <url>
-    <loc>/490_590_2019/categories/homework/</loc>
-    <lastmod>2019-08-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/490_590_2019/categories/reading/</loc>
+    <lastmod>2019-08-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -122,14 +118,7 @@
   </url>
   
   <url>
-    <loc>/490_590_2019/categories/reading/</loc>
-    <lastmod>2019-08-22T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/490_590_2019/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>

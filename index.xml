@@ -6,10 +6,19 @@
     <description>Recent content on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 20 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture notes: Reshaping with tidyr</title>
+      <link>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</guid>
+      <description>Resources  Software Carpentry tidyr lesson  Gapminder in wide format Remember that the “standard” (long-ish) gapminder data set can be loaded from the gapminder package  Tidyr homepage The tidy data chapter in R for Data Science.  Useful ggplot2 worked examples  Claus Wilke’s guide to publishable ggplots. (This isn’t relevant to today’s lesson, but it’s a useful resource).    Reshaping data with tidyr Think about what a ‘long’ format data frame is: each row is an observation, and each column is a variable.</description>
+    </item>
     
     <item>
       <title>Lecture notes: Intro to dplyr</title>
