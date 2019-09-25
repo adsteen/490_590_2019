@@ -4,19 +4,24 @@
   
   <url>
     <loc>/490_590_2019/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
+    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/post/</loc>
+    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/2019/09/25/script-for-lecture-25-sept/</loc>
+    <lastmod>2019-09-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</loc>
     <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/post/</loc>
-    <lastmod>2019-09-23T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
