@@ -18,7 +18,7 @@
       
       <guid>/490_590_2019/2019/09/25/script-for-lecture-25-sept/</guid>
       <description>Please copy-paste the code below to download and pre-process some data you&amp;rsquo;ll use in the in-class exercise today.
-# Setup for in-class exercise library(tidyverse) countries_data &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/adsteen/490_590_2019/gh-pages/data/country_capital.csv&amp;quot;) %&amp;gt;% mutate(growth.2002.2008 = as.numeric(str_remove(countries_data$growth.2002.2008, &amp;quot;%&amp;quot;)))  </description>
+# Setup for in-class exercise library(tidyverse) countries_data &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/adsteen/490_590_2019/gh-pages/data/country_capital.csv&amp;quot;) %&amp;gt;% mutate(growth.2002.2008 = as.numeric(str_remove(growth.2002.2008, &amp;quot;%&amp;quot;)))  </description>
     </item>
     
     <item>

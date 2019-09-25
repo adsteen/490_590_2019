@@ -73,7 +73,7 @@
 <pre><code># Setup for in-class exercise
 library(tidyverse)
 countries_data &lt;- read_csv(&quot;https://raw.githubusercontent.com/adsteen/490_590_2019/gh-pages/data/country_capital.csv&quot;) %&gt;%
-  mutate(growth.2002.2008 = as.numeric(str_remove(countries_data$growth.2002.2008, &quot;%&quot;)))
+  mutate(growth.2002.2008 = as.numeric(str_remove(growth.2002.2008, &quot;%&quot;)))
 </code></pre>
 
     </div>
@@ -111,9 +111,6 @@ countries_data &lt;- read_csv(&quot;https://raw.githubusercontent.com/adsteen/49
 
 
     
-<script src="/490_590_2019/js/math-code.js"></script>
-<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
-
 
     
   </body>
