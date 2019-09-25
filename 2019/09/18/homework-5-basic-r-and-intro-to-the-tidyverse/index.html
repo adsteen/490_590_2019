@@ -103,7 +103,7 @@ c(7, &quot;f&quot;)</code></pre>
 <ol start="3" style="list-style-type: decimal">
 <li><p>Create a data frame that consists of the first 5 rows of <code>gapminder</code></p></li>
 <li><p>Create a data frame that consists of 20 <em>randomly selected</em> rows of <code>gapminder</code>. Hint: look at the <code>sample()</code> function. (Use base R)</p></li>
-<li><p>Create a data frame called <code>milennial_europe</code> that contains only the rows in <code>gapminder</code> that correspond to countries in Europe, after 2007</p></li>
+<li><p>Create a data frame called <code>milennial_europe</code> that contains only the rows in <code>gapminder</code> that correspond to countries in Europe, after 2000</p></li>
 <li><p>Explain what the following code does by turning it into an English-language sentence</p></li>
 </ol>
 <pre class="r"><code>mean(gapminder[gapminder$continent == &quot;Africa&quot;, &quot;gdpPercap&quot;])</code></pre>
@@ -145,11 +145,17 @@ c(7, &quot;f&quot;)</code></pre>
 <div id="grouping" class="section level2">
 <h2>Grouping</h2>
 <ol start="10" style="list-style-type: decimal">
-<li><p>Write a single command to create a data frame containing the mean (<code>mean()</code>)and standard deviation (<code>sd</code>) of life expectancy for each year, of all countries in the Americas. The answer should have two columns and 12 rows.</p></li>
+<li><p>Write a single command to create a data frame containing the mean (<code>mean()</code>)and standard deviation (<code>sd</code>) of life expectancy for each year, of all countries in the Americas. The answer should have 3 columns and 12 rows. <strong>A note on the confusion from class:</strong> I want average &amp; standard deviaion of life expectancy across all countries in the Americas, separately in each year. So: average life expectancy in 1952, average life expectency in 1957, etc. There are 12 unique years, so the data frame will have 12 rows.</p></li>
 <li><p>Make a data frame containing the <em>number</em> of countries in each continent for each year.</p></li>
 <li><p>Make a data frame continaing the top 3 countries, in terms of life expectancy, for each continent, in each year. This data frame should have a column that tells us the overall rank of each country in the world in terms of life expectency (i.e., 1 for the highest life expectency, 2 for second highest, etc.).</p></li>
 </ol>
 </div>
+</div>
+<div id="late-breaking-join-question" class="section level1">
+<h1>Late-breaking join question</h1>
+<ol start="13" style="list-style-type: decimal">
+<li>Use the in-class script to load and pre-process the <code>countries_data</code> data frame. Using <code>dplyr</code> syntax and one of the <code>join</code> functions, identify which country names are in <code>countries_data</code> that aren’t in <code>gapminder</code>. Hint: look over the <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/two-table.html">“two-table verbs” vignette</a> here, and think about all of the <code>join</code> functions available. You will also probably want to use <code>summarise()</code> to get one row per grouping variable, or (if you venture into base R) the <code>unique</code> function to see each unique value of a vector.</li>
+</ol>
 </div>
 
     </div>
