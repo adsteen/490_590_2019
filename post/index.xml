@@ -6,10 +6,21 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Final Project announcement</title>
+      <link>/490_590_2019/2019/09/27/final-project-announcement/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/27/final-project-announcement/</guid>
+      <description>Project overview Final projects may be submitted by groups of up to 4 students, or by individuals. Feel free to self-organize into new groups.
+Groups/individuals will negotiate a draft project prospectus with me. For the prospectus, imagine me as a potential client for your data analysis consulting firm. The prospectus is the document you&amp;rsquo;re using to convince me to buy your service.
+An agreed-upon project prospectus is due Oct 16.</description>
+    </item>
     
     <item>
       <title>Lecture notes: Join operations using dplyr</title>
