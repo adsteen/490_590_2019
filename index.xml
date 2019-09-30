@@ -6,10 +6,20 @@
     <description>Recent content on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 27 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture notes: linear models and methods</title>
+      <link>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</guid>
+      <description>This is a draft for my lecture notes; I’ll clean it up for public use shortly.
+library(tidyverse) # Let&amp;#39;s talk about linear models glimpse(mtcars) # What is the relationship between power and displacement? p_hp &amp;lt;- ggplot(mtcars, aes(x = disp, y = hp)) + geom_point() + geom_smooth(method = &amp;quot;lm&amp;quot;, se = TRUE) + ggrepel::geom_label_repel(label = rownames(mtcars)) print(p_hp) # But what&amp;#39;s the relationship? hp_mod &amp;lt;- lm(hp ~ disp, data = mtcars) # lm for &amp;quot;linear model&amp;quot; str(hp_mod) summary(hp_mod) # Note that summary is doing something funny here: summary(mtcars$hp) # an even better example print(mtcars$mpg) print(p_hp) # luckily we can type the name of the function, and R will auto-print the code print # Bummer (this is written in a compiled language, probably C or C++) ?</description>
+    </item>
     
     <item>
       <title>Final Project announcement</title>

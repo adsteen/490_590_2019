@@ -3,25 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/490_590_2019/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/490_590_2019/post/</loc>
+    <lastmod>2019-09-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/490_590_2019/2019/09/27/final-project-announcement/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/490_590_2019/</loc>
-    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/490_590_2019/2019/09/27/homework-6-linear-models-purrr-and-list-columns/</loc>
     <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/490_590_2019/post/</loc>
-    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

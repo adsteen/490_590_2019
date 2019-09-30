@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>Lecture notes: linear models and methods - Geology 490/590 2019</title>
+<meta property="og:title" content="Lecture notes: linear models and methods - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Lecture notes: linear models and methods</h1>
+
+    
+    <span class="article-date">2019-09-30</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p><strong>This is a draft for my lecture notes; I’ll clean it up for public use shortly.</strong></p>
+<pre class="r"><code>library(tidyverse)
+
+# Let&#39;s talk about linear models
+
+glimpse(mtcars)
+
+# What is the relationship between power and displacement?
+p_hp &lt;- ggplot(mtcars, aes(x = disp, y = hp)) +
+  geom_point() + 
+  geom_smooth(method = &quot;lm&quot;, se = TRUE) + 
+  ggrepel::geom_label_repel(label = rownames(mtcars))
+print(p_hp)
+
+# But what&#39;s the relationship?
+hp_mod &lt;- lm(hp ~ disp, data = mtcars) # lm for &quot;linear model&quot;
+str(hp_mod)
+summary(hp_mod)
+
+# Note that summary is doing something funny here:
+summary(mtcars$hp)
+
+# an even better example
+print(mtcars$mpg)
+print(p_hp)
+
+# luckily we can type the name of the function, and R will auto-print the code
+print
+# Bummer (this is written in a compiled language, probably C or C++)
+
+?print.ggplot
+?print.data.frame
+?print.tbl
+
+# This is called a method: a 
+# We&#39;ll talk more about classes later (and how to make your own)
+# But for now it is good enough to know that the way &#39;print&#39; works is that R looks at 
+# what kind of object we&#39;re talking about before it decides what to do
+
+print(hp_mod)
+plot(hp_mod)
+resid(hp_mod)
+plot(resid(hp_mod) ~ mtcars$disp)
+
+# Exercise: find a pair of variables in mtcars that poorly satisfies assumptions of linear models
+
+## Now, do what you should have done in the first place: PLOTS
+
+# from github: install.packages(&#39;devtools&#39;)
+# devtools::install_github(&#39;stephenturner/Tmisc&#39;)
+devtools::install_github(&#39;stephenturner/Tmisc&#39;)
+library(Tmisc)
+anscombe &lt;- ggplot(quartet, aes(x = x, y = y)) +
+  geom_point() + 
+  geom_smooth(method = &quot;lm&quot;, se = FALSE) + 
+  facet_wrap(~ set)
+print(anscombe)
+
+library(datasauRus)
+ggplot(datasaurus_dozen, aes(x = x, y = y)) + 
+  geom_point() + 
+  geom_smooth(method = &quot;lm&quot;, se = TRUE) + 
+  facet_wrap(~dataset)
+
+x_data &lt;- datasaurus_dozen %&gt;%
+  filter(dataset == &quot;x_shape&quot;)
+x_mod &lt;- lm(y ~ x, data = x_data)
+summary(x_mod)
+plot(x_mod)
+
+# Back to formulae
+two_var_mod &lt;- lm(mpg ~ disp + wt, data = mtcars)
+summary(two_var_mod)</code></pre>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+<script src="/490_590_2019/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
