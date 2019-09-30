@@ -23,6 +23,15 @@ An agreed-upon project prospectus is due Oct 16.</description>
     </item>
     
     <item>
+      <title>Homework 6: linear models, purrr, and list-columns</title>
+      <link>/490_590_2019/2019/09/27/homework-6-linear-models-purrr-and-list-columns/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/27/homework-6-linear-models-purrr-and-list-columns/</guid>
+      <description>Linear models Using the mtcars data frame, create a linear model of qsec (quarter mile time in seconds) as a function of mpg (miles per gallon). qsec should be the dependant variable, and mpg is the independant variable. Use the coef() function to extract the coefficients Use the summary() function to view the coefficients Obtain the coefficients directly from the model object, using what you know about subsetting lists.  Use the base R plot() function to create four diagnostic plots of the linear model.</description>
+    </item>
+    
+    <item>
       <title>Lecture notes: Join operations using dplyr</title>
       <link>/490_590_2019/2019/09/25/lecture-notes-join-operations-using-dplyr/</link>
       <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
