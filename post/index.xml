@@ -26,7 +26,8 @@
       <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</guid>
-      <description>Resources Linear models  Thomas Leeper’s tutorial on formulae From R for Data Science   Nonlinear models  This tutorial form DataScience+   Methods and method dispatch  Probably more than you want to know from Advanced R    Linear models Let’s think about one of the simplest statistical tasks we can do - creating a linear least-squares regression. We’ve already seen that ggplot2 will do this automatically for us, via geom_smooth(method = &amp;quot;lm&amp;quot;).</description>
+      <description>Note: These are the lecture notes for 30 September and 2 October.
+Resources Linear models  Thomas Leeper’s tutorial on formulae From R for Data Science   Nonlinear models  This tutorial form DataScience+   Methods and method dispatch  Probably more than you want to know from Advanced R    Linear models Let’s think about one of the simplest statistical tasks we can do - creating a linear least-squares regression.</description>
     </item>
     
     <item>
