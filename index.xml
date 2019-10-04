@@ -6,10 +6,20 @@
     <description>Recent content on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 01 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>A note on Stackoverflow</title>
+      <link>/490_590_2019/2019/10/04/a-note-on-stackoverflow/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/a-note-on-stackoverflow/</guid>
+      <description>StackOverflow (SO) is a great resource for help with R, or any other programming language. Below are two notes about how to use SO effectively.
+ SO is complete enough that, when you are new to R, it is extraordinarily unlikely that you will have a question that has not already been asked already. So, before you post a question, spend quite a while searching for similar questions. If you are certain that you have a new question, great!</description>
+    </item>
     
     <item>
       <title>Updated class schedule</title>
