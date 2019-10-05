@@ -22,6 +22,16 @@
     </item>
     
     <item>
+      <title>Homework 7: Functions and error handling</title>
+      <link>/490_590_2019/2019/10/04/homework-7-functions-and-error-handling/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/homework-7-functions-and-error-handling/</guid>
+      <description>Functions Create a function that does the following:
+Accepts 3 arguments:  The first argument should be a data frame The second and third argument should be the index number of columns in the data frame. These should default to the first and second column of the data frame, respectively.  Returns a vector that is the sum of the two columns specified in the arguments Throws an informative error if:  The object passed in as the first argument is not a data frame Either of the two columns are not numeric, so they can’t be added  Auto-prints the result of the function, if it is not assigned to a value (just like most base R functions do).</description>
+    </item>
+    
+    <item>
       <title>Updated class schedule</title>
       <link>/490_590_2019/2019/10/01/updated-class-schedule/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
