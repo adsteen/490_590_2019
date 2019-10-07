@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>Lecture notes: Functions, if/then, stop, try/catch - Geology 490/590 2019</title>
+<meta property="og:title" content="Lecture notes: Functions, if/then, stop, try/catch - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Lecture notes: Functions, if/then, stop, try/catch</h1>
+
+    
+    <span class="article-date">2019-10-04</span>
+    
+
+    <div class="article-content">
+      
+
+
+<p><strong>This is a draft post I’ll use for in-class notes</strong></p>
+<div id="functions" class="section level1">
+<h1>Functions</h1>
+<ul>
+<li>Reminder: we create a function with the <code>function()</code> function</li>
+<li>Parameters, default values</li>
+</ul>
+</div>
+<div id="debugging" class="section level1">
+<h1>Debugging</h1>
+<ul>
+<li><code>print()</code></li>
+<li><code>browser()</code></li>
+</ul>
+</div>
+<div id="errors-warnings-and-messages" class="section level1">
+<h1>Errors, warnings, and messages</h1>
+<ul>
+<li><code>stop()</code>, <code>warning()</code>, <code>message()</code>
+(now, why would we want to catch errors?)</li>
+</ul>
+<div id="parameter-checking-with-ifelse" class="section level2">
+<h2>Parameter checking with if/else</h2>
+<pre class="r"><code>example_fun &lt;- function(x) {
+  x + 3
+}
+example_fun(&quot;a&quot;)</code></pre>
+<pre><code>## Error in x + 3: non-numeric argument to binary operator</code></pre>
+<pre class="r"><code>example_fun_better &lt;- function(x) {
+  if(!is.numeric(x)) { # remember ! means &quot;not&quot;
+    warning(&quot;The argument x is not numeric&quot;)
+    result &lt;- NA
+  } else {
+    # This bit only runs if x is not, not numeric (i.e. if it is numeric)
+    x + 3
+  }
+  
+}</code></pre>
+</div>
+<div id="error-trapping-with-trycatch" class="section level2">
+<h2>Error trapping with try/catch</h2>
+<p>Even better than parameter checking</p>
+<pre class="r"><code>my_fun &lt;- function(x) {
+  result &lt;- tryCatch({
+    x + 3
+    }, error = function(e) stop(&quot;There was some kind of error&quot;)
+  )
+  result
+}
+
+
+
+char_combine &lt;- function(x1, x2) {
+  result = tryCatch({
+    c(x1, x2)
+  }, warning = function(w) {
+    warning(&quot;I&#39;m only going to warn you once&quot;)
+  }, error = function(e) {
+    warning(&quot;R tried to throw an error, but I&#39;ve got your back&quot;)
+  }, finally = {
+    result = NA
+  })
+  result
+}</code></pre>
+</div>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

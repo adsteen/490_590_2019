@@ -32,6 +32,16 @@ Accepts 3 arguments:  The first argument should be a data frame The second and t
     </item>
     
     <item>
+      <title>Lecture notes: Functions, if/then, stop, try/catch</title>
+      <link>/490_590_2019/2019/10/04/lecture-notes-functions-if-then-stop-try-catch/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/lecture-notes-functions-if-then-stop-try-catch/</guid>
+      <description>This is a draft post I’ll use for in-class notes
+Functions  Reminder: we create a function with the function() function Parameters, default values   Debugging  print() browser()   Errors, warnings, and messages  stop(), warning(), message() (now, why would we want to catch errors?)  Parameter checking with if/else example_fun &amp;lt;- function(x) { x + 3 } example_fun(&amp;quot;a&amp;quot;) ## Error in x + 3: non-numeric argument to binary operator example_fun_better &amp;lt;- function(x) { if(!</description>
+    </item>
+    
+    <item>
       <title>Updated class schedule</title>
       <link>/490_590_2019/2019/10/01/updated-class-schedule/</link>
       <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
