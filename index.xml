@@ -37,8 +37,7 @@ Accepts 3 arguments:  The first argument should be a data frame The second and t
       <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/2019/10/04/lecture-notes-functions-if-then-stop-try-catch/</guid>
-      <description>This is a draft post I’ll use for in-class notes
-Functions  Reminder: we create a function with the function() function Parameters, default values   Debugging  print() browser()   Errors, warnings, and messages  stop(), warning(), message() (now, why would we want to catch errors?)  Parameter checking with if/else example_fun &amp;lt;- function(x) { x + 3 } example_fun(&amp;quot;a&amp;quot;) ## Error in x + 3: non-numeric argument to binary operator example_fun_better &amp;lt;- function(x) { if(!</description>
+      <description>Resources  Functions: Advanced R Chapter 6 I’ve decided not to talk a lot about environments, but if you want to build a package, it may help you to read about environments in Advanced R Chapter 7 This handy-dandy blog post about tryCatch() that is way more informative than the help page.   Functions  Reminder: we create a function with the function() function Parameters, default values  Debugging  print() browser()   Errors, warnings, and messages  stop(), warning(), message() (now, why would we want to catch errors?</description>
     </item>
     
     <item>
