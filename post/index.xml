@@ -6,10 +6,29 @@
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 21 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Lecture notes: Introduction to shiny</title>
+      <link>/490_590_2019/2019/10/21/lecture-notes-introduction-to-shiny/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/21/lecture-notes-introduction-to-shiny/</guid>
+      <description>Resources  Mastering Shiny by Hadley Wickham.  Note that this textbook is early in development. The entire text is on Github. If you can think of an improvement, fork it, make the change, and create a pull request!  Shiny cheat sheet at RStudio cheat sheets (.pdf) Shiny apps gallery. Note that for each app, there&amp;rsquo;s a link to the underlying code, e.g. here. Shinyapps.io, which will host your shiny apps for free on the web (as long as too many people don&amp;rsquo;t use them.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Intro to git</title>
+      <link>/490_590_2019/2019/10/15/lecture-notes-intro-to-git/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/15/lecture-notes-intro-to-git/</guid>
+      <description>Resources The resources I&amp;rsquo;m listing are better than any notes I would post, so I refer you to them for this lesson.
+ Software Carpentry&amp;rsquo;s git lesson As a reminder, Software Carpentry&amp;rsquo;s the Unix (bash) shell lesson Jenny Bryan&amp;rsquo;s extensive Happy git with R guide, which contains a lot of practical detail about setting up git and connecting it with GitHub. Some particularly important sections:  Philosophy and practical advice on git clients (like Git Kraken, which I&amp;rsquo;m using) Connecting to GitHub Setting up credentials for HTTPS so you can connect automatically  GitHub&amp;rsquo;s list of guides to get started with git and GitHub.</description>
+    </item>
     
     <item>
       <title>A very brief introduction to S3 classes</title>
@@ -27,7 +46,7 @@ Resources  This lecture was taken with minor changes from the Wickham Chapter 13
       <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
       
       <guid>/490_590_2019/2019/10/08/lecture-notes-performance-and-environments/</guid>
-      <description> Resources  Advanced R chapter on S3, from which this lesson is taken more-or-less directly.  library(tidyverse) ## ── Attaching packages ────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.2.1 ✔ purrr 0.3.2 ## ✔ tibble 2.1.3 ✔ dplyr 0.8.3 ## ✔ tidyr 0.8.3 ✔ stringr 1.4.0 ## ✔ readr 1.3.1 ✔ forcats 0.4.0 ## ── Conflicts ───────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(sloop) f &amp;lt;- factor(c(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)) typeof(f) ## [1] &amp;quot;integer&amp;quot; #&amp;gt; [1] &amp;quot;integer&amp;quot; attributes(f) ## $levels ## [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; ## ## $class ## [1] &amp;quot;factor&amp;quot; #&amp;gt; $levels #&amp;gt; [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; #&amp;gt; #&amp;gt; $class #&amp;gt; [1] &amp;quot;factor&amp;quot;  </description>
+      <description> Resources  Advanced R chapter on S3, from which this lesson is taken more-or-less directly.  library(tidyverse) ## ── Attaching packages ─────────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.2.1 ✔ purrr 0.3.2 ## ✔ tibble 2.1.3 ✔ dplyr 0.8.3 ## ✔ tidyr 0.8.3 ✔ stringr 1.4.0 ## ✔ readr 1.3.1 ✔ forcats 0.4.0 ## ── Conflicts ────────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(sloop) f &amp;lt;- factor(c(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)) typeof(f) ## [1] &amp;quot;integer&amp;quot; #&amp;gt; [1] &amp;quot;integer&amp;quot; attributes(f) ## $levels ## [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; ## ## $class ## [1] &amp;quot;factor&amp;quot; #&amp;gt; $levels #&amp;gt; [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; #&amp;gt; #&amp;gt; $class #&amp;gt; [1] &amp;quot;factor&amp;quot;  </description>
     </item>
     
     <item>
