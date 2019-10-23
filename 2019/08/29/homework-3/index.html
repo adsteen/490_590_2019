@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>Homework 3 - Geology 490/590 2019</title>
+<meta property="og:title" content="Homework 3 - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+
+<link href='//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css' rel='stylesheet' type='text/css' />
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Homework 3</h1>
+
+    
+    <span class="article-date">2019-08-29</span>
+    
+
+    <div class="article-content">
+      
+
+<h1 id="data-visualization-theory">Data visualization theory</h1>
+
+<ul>
+<li>Read Healy chapters 1-4.</li>
+<li>Bring two plots you found in the primary literature (printed out, ideally)
+
+<ul>
+<li>One that you think succeeds in an interesting way</li>
+<li>One that you think fails in an interesting way</li>
+<li>For the one that fails: do a pen-and-paper sketch of how it might be improved. No need to be precise, the goal is just to communicate the gist of what a better version of that plot would look like.</li>
+</ul></li>
+</ul>
+
+<h1 id="basic-ggplotery">Basic ggplotery</h1>
+
+<p>Using your own data write a script to make the following plots. I&rsquo;ve mentioned some code you&rsquo;ll want to include.</p>
+
+<pre><code>* A scatter plot: `geom_point()`
+* A density plot:`geom_density()`, note that this requires only an x aesthetic
+* A scatter plot with a linear regression with a shaded area for the confidence interval: `geom_point() + geom_smooth(method = &quot;lm&quot;, se = TRUE)`
+* A scatter plot with multiple categories of data points, where the category is mapped to the color of the points: `aes(colour = my.category)`
+* A scatter plot with multiple categories of data points, where each category is presented in its own 'facet': `facet_wrap(~my.category)` (how is `facet_grid` different?)
+* A scatter plot with vertical errorbars: `geom_pointrange()`
+* A box-and-whiskers plot with superimposed, 'dodged' points: `geom_boxplot() + geom_point(position = position_dodge())`)
+</code></pre>
+
+<p>If you don&rsquo;t have your own data suited to the purpose, there are a bunch of datasets built into R. The <code>data()</code> function lists them all. These are contained within the <strong>datasets</strong> package, which is one of the packages that are automatically loaded every time R starts.</p>
+
+<p>Thus, you can access them just by typing their name. See, for instance, <code>head(iris)</code>. Remember that <strong>ggplot2</strong> only works with data frames, but some of these data sets are weird and somewhat-obsolete classes of objects, like &lsquo;Time-Series&rsquo;. <code>is.data.frame()</code> and <code>as.data.frame()</code> are helpful here.</p>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
+
+    
+
+    
+  </body>
+</html>
+

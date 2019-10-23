@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.56.3" />
+
+
+<title>Lecture 2: R, RStudio, and Bash - Geology 490/590 2019</title>
+<meta property="og:title" content="Lecture 2: R, RStudio, and Bash - Geology 490/590 2019">
+
+
+  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/490_590_2019/css/fonts.css" media="all">
+<link rel="stylesheet" href="/490_590_2019/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/490_590_2019/" class="nav-logo">
+    <img src="/490_590_2019/images/lab_logo_Aidia_2016.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/490_590_2019/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">2 min read</span>
+    
+
+    <h1 class="article-title">Lecture 2: R, RStudio, and Bash</h1>
+
+    
+    <span class="article-date">2019-08-25</span>
+    
+
+    <div class="article-content">
+      
+
+<h1 id="rstudio-r-and-directories">RStudio, R, and directories</h1>
+
+<ul>
+<li>Rstudio vs R</li>
+<li>Other ways to run R</li>
+<li>interactively within command line: &ldquo;R&rdquo;</li>
+<li><code>Rscript</code> from the command line: more on this later</li>
+</ul>
+
+<h1 id="from-software-carpentry">From Software Carpentry</h1>
+
+<p>Very brief intro to some key things you can do with the shell.
+Note that these are condensed from the <a href="http://swcarpentry.github.io/shell-novice/reference/">Software Carpentry shell lesson</a></p>
+
+<ul>
+<li><code>pwd</code> (note windows vs OSX/Linux)
+
+<ul>
+<li>note <code>/</code> means two different things; and in Windows it&rsquo;s <code>\</code></li>
+<li>Note <code>~</code> vs <code>/</code></li>
+</ul></li>
+<li><code>cd</code>
+
+<ul>
+<li><code>.</code>, <code>..</code></li>
+</ul></li>
+<li><code>ls</code>
+
+<ul>
+<li><code>-</code> usually indicates &lsquo;arguments&rsquo; (information you send to a program; aka &lsquo;flags&rsquo; or &lsquo;switches&rsquo;)</li>
+</ul></li>
+<li><code>man</code> (eg, <code>man ls</code>)
+
+<ul>
+<li>also, <code>ls --help</code></li>
+</ul></li>
+<li><code>cp old new</code> copies a file named &lsquo;old&rsquo; to a file named &lsquo;new&rsquo;</li>
+<li><code>mkdir</code></li>
+<li><code>mv</code> (moving or renames)</li>
+<li><code>rm</code>, <code>rm -r</code>: <strong>beware</strong></li>
+<li><code>*</code> matches zero or more characters in a filename
+
+<ul>
+<li>Notes on file extensions</li>
+</ul></li>
+<li><code>nano</code> (and make a file to show about extensions)</li>
+<li><code>head</code> and <code>tail</code></li>
+<li><code>wc</code></li>
+<li>pipes: <code>ls -1 | wc -lq</code></li>
+<li>This really gets useful when we start using loops, but I won&rsquo;t cover that</li>
+<li><code>ssh</code>, <code>sftp</code></li>
+</ul>
+
+<p>(You can see more Software Carpentry lessons, including lessons on R and python, <a href="https://software-carpentry.org/lessons/">here</a> - they&rsquo;re really carefully built!)</p>
+
+<ul>
+<li>What the shell is
+
+<ul>
+<li>A system to talk to your computer that doesn&rsquo;t require a graphical interface</li>
+<li>We&rsquo;re using Bash: Bourne-again shell.</li>
+<li>Apparently OSX is switching to Zsh with their newest OS (Catalina), but this shouldn&rsquo;t really make a difference</li>
+</ul></li>
+<li>Why use it?
+
+<ul>
+<li>Unambiguous commands</li>
+<li>Lots of software that only works via shell commands (e.g. sed, awk, pandoc, many niche scientific programs)</li>
+<li>Working on a remote computer</li>
+<li><strong>Shell scripts</strong></li>
+</ul></li>
+</ul>
+
+<h1 id="running-r-scripts-from-the-command-line">Running R scripts from the command line</h1>
+
+<ul>
+<li>Why?
+
+<ul>
+<li>Working on a supercomputer or other remote server</li>
+<li>Including R scripts in a shell script</li>
+<li>Note: try typing &ldquo;R&rdquo; in shell</li>
+</ul></li>
+<li>Rscript foo.R</li>
+<li>Make sure Rscript is in your <a href="https://astrobiomike.github.io/bash/modifying_your_path">path</a>
+
+<ul>
+<li>try <code>echo $PATH | tr &quot;:&quot; &quot;\n&quot;</code></li>
+</ul></li>
+<li>Note: maybe easiest to use Terminal window in Rstudio (although TBH I don&rsquo;t know whether there are system-specific quirks)</li>
+</ul>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/490_590_2019/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/490_590_2019/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/490_590_2019/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+

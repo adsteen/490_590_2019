@@ -2,43 +2,322 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Geology 490/590 2019</title>
-    <link>/post/</link>
+    <link>/490_590_2019/post/</link>
     <description>Recent content in Posts on Geology 490/590 2019</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 30 Dec 2016 21:49:57 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 23 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/490_590_2019/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>Lecture notes: Shiny 2</title>
+      <link>/490_590_2019/2019/10/23/lecture-notes-shiny-2/</link>
+      <pubDate>Wed, 23 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+      <guid>/490_590_2019/2019/10/23/lecture-notes-shiny-2/</guid>
+      <description>Resources The this is the set of notes for the classroom exercise of building a shiny app that dynamically creates plots of the diamonds data set.
+The aim is to create a shiny app that does the following:
+ Makes a dynamic plot of the diamonds data set Allows the user to select the range of carat that is being plotted Allows the user to select which variables to map to the x, y and color aesthetics of the plot  Hint: use aes_string() instead of aes here  Only updates the plot when the user presses ‘go’ (an actionButton())  A final(-ish) version of the app can be seen at its github repository.</description>
     </item>
     
     <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      <title>Lecture notes: Introduction to shiny</title>
+      <link>/490_590_2019/2019/10/21/lecture-notes-introduction-to-shiny/</link>
+      <pubDate>Mon, 21 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+      <guid>/490_590_2019/2019/10/21/lecture-notes-introduction-to-shiny/</guid>
+      <description>Resources  Mastering Shiny by Hadley Wickham.  Note that this textbook is early in development. The entire text is on Github. If you can think of an improvement, fork it, make the change, and create a pull request!  Shiny cheat sheet at RStudio cheat sheets (.pdf) Shiny apps gallery. Note that for each app, there&amp;rsquo;s a link to the underlying code, e.g. here. Shinyapps.io, which will host your shiny apps for free on the web (as long as too many people don&amp;rsquo;t use them.</description>
     </item>
     
     <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      <title>Lecture notes: Intro to git</title>
+      <link>/490_590_2019/2019/10/15/lecture-notes-intro-to-git/</link>
+      <pubDate>Tue, 15 Oct 2019 00:00:00 +0000</pubDate>
       
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/490_590_2019/2019/10/15/lecture-notes-intro-to-git/</guid>
+      <description>Resources The resources I&amp;rsquo;m listing are better than any notes I would post, so I refer you to them for this lesson.
+ Software Carpentry&amp;rsquo;s git lesson As a reminder, Software Carpentry&amp;rsquo;s the Unix (bash) shell lesson Jenny Bryan&amp;rsquo;s extensive Happy git with R guide, which contains a lot of practical detail about setting up git and connecting it with GitHub. Some particularly important sections:  Philosophy and practical advice on git clients (like Git Kraken, which I&amp;rsquo;m using) Connecting to GitHub Setting up credentials for HTTPS so you can connect automatically  GitHub&amp;rsquo;s list of guides to get started with git and GitHub.</description>
+    </item>
+    
+    <item>
+      <title>A very brief introduction to S3 classes</title>
+      <link>/490_590_2019/2019/10/09/a-very-brief-introduction-to-s3-classes/</link>
+      <pubDate>Wed, 09 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/09/a-very-brief-introduction-to-s3-classes/</guid>
+      <description>DRAFT: I’ve posted this without explaining how to write methods for new classes. I’ll update shortly to include that.
+Resources  This lecture was taken with minor changes from the Wickham Chapter 13 on S3 classes in Advanced R.   Classes and methods  There are two main reasons to use classes in R.  It allows you to create well-defined and structured data objects, so that you can be (reasonably) sure that an object of a given class will be structured in a specific way.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: object-oriented programming</title>
+      <link>/490_590_2019/2019/10/08/lecture-notes-performance-and-environments/</link>
+      <pubDate>Tue, 08 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/08/lecture-notes-performance-and-environments/</guid>
+      <description> Resources  Advanced R chapter on S3, from which this lesson is taken more-or-less directly.  library(tidyverse) ## ── Attaching packages ──────────────────────────────────────────────────────── tidyverse 1.2.1 ── ## ✔ ggplot2 3.2.1 ✔ purrr 0.3.2 ## ✔ tibble 2.1.3 ✔ dplyr 0.8.3 ## ✔ tidyr 0.8.3 ✔ stringr 1.4.0 ## ✔ readr 1.3.1 ✔ forcats 0.4.0 ## ── Conflicts ─────────────────────────────────────────────────────────── tidyverse_conflicts() ── ## ✖ dplyr::filter() masks stats::filter() ## ✖ dplyr::lag() masks stats::lag() library(sloop) f &amp;lt;- factor(c(&amp;quot;a&amp;quot;, &amp;quot;b&amp;quot;, &amp;quot;c&amp;quot;)) typeof(f) ## [1] &amp;quot;integer&amp;quot; #&amp;gt; [1] &amp;quot;integer&amp;quot; attributes(f) ## $levels ## [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; ## ## $class ## [1] &amp;quot;factor&amp;quot; #&amp;gt; $levels #&amp;gt; [1] &amp;quot;a&amp;quot; &amp;quot;b&amp;quot; &amp;quot;c&amp;quot; #&amp;gt; #&amp;gt; $class #&amp;gt; [1] &amp;quot;factor&amp;quot;  </description>
+    </item>
+    
+    <item>
+      <title>A note on Stackoverflow</title>
+      <link>/490_590_2019/2019/10/04/a-note-on-stackoverflow/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/a-note-on-stackoverflow/</guid>
+      <description>StackOverflow (SO) is a great resource for help with R, or any other programming language. Below are two notes about how to use SO effectively.
+ SO is complete enough that, when you are new to R, it is extraordinarily unlikely that you will have a question that has not already been asked already. So, before you post a question, spend quite a while searching for similar questions. If you are certain that you have a new question, great!</description>
+    </item>
+    
+    <item>
+      <title>Homework 7: Functions and error handling</title>
+      <link>/490_590_2019/2019/10/04/homework-7-functions-and-error-handling/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/homework-7-functions-and-error-handling/</guid>
+      <description>Functions Create a function that does the following:
+Accepts 3 arguments:  The first argument should be a data frame The second and third argument should be the index number of columns in the data frame. These should default to the first and second column of the data frame, respectively.  Returns a vector that is the sum of the two columns specified in the arguments Throws an informative error if:  The object passed in as the first argument is not a data frame Either of the two columns are not numeric, so they can’t be added  Auto-prints the result of the function, if it is not assigned to a value (just like most base R functions do).</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Functions, if/then, stop, try/catch</title>
+      <link>/490_590_2019/2019/10/04/lecture-notes-functions-if-then-stop-try-catch/</link>
+      <pubDate>Fri, 04 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/04/lecture-notes-functions-if-then-stop-try-catch/</guid>
+      <description>Resources  Functions: Advanced R Chapter 6 I’ve decided not to talk a lot about environments, but if you want to build a package, it may help you to read about environments in Advanced R Chapter 7 This handy-dandy blog post about tryCatch() that is way more informative than the help page.   Functions  Reminder: we create a function with the function() function Parameters, default values  Debugging  print() browser()   Errors, warnings, and messages  stop(), warning(), message() (now, why would we want to catch errors?</description>
+    </item>
+    
+    <item>
+      <title>Updated class schedule</title>
+      <link>/490_590_2019/2019/10/01/updated-class-schedule/</link>
+      <pubDate>Tue, 01 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/10/01/updated-class-schedule/</guid>
+      <description>A PDF version of the updated class schedule can be found here, with deadlines for the final project prospectus, status report, draft, presentation, and final project.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: linear models and methods</title>
+      <link>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</link>
+      <pubDate>Mon, 30 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/30/lecture-notes-linear-models-and-methods/</guid>
+      <description>Note: These are the lecture notes for 30 September and 2 October.
+Resources Linear models  Thomas Leeper’s tutorial on formulae From R for Data Science   Nonlinear models  This tutorial form DataScience+   Methods and method dispatch  Probably more than you want to know from Advanced R    Linear models Let’s think about one of the simplest statistical tasks we can do - creating a linear least-squares regression.</description>
+    </item>
+    
+    <item>
+      <title>Final Project announcement</title>
+      <link>/490_590_2019/2019/09/27/final-project-announcement/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/27/final-project-announcement/</guid>
+      <description>Project overview Final projects may be submitted by groups of up to 4 students, or by individuals. Feel free to self-organize into new groups.
+Groups/individuals will negotiate a draft project prospectus with me. For the prospectus, imagine me as a potential client for your data analysis consulting firm. The prospectus is the document you&amp;rsquo;re using to convince me to buy your service.
+An agreed-upon project prospectus is due Oct 16.</description>
+    </item>
+    
+    <item>
+      <title>Homework 6: linear models, purrr, and list-columns</title>
+      <link>/490_590_2019/2019/09/27/homework-6-linear-models-purrr-and-list-columns/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/27/homework-6-linear-models-purrr-and-list-columns/</guid>
+      <description>Linear models Using the mtcars data frame, create a linear model of qsec (quarter mile time in seconds) as a function of mpg (miles per gallon). qsec should be the dependant variable, and mpg is the independant variable. Use the coef() function to extract the coefficients Use the summary() function to view the coefficients Obtain the coefficients directly from the model object, using what you know about subsetting lists.  Use the base R plot() function to create four diagnostic plots of the linear model.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Join operations using dplyr</title>
+      <link>/490_590_2019/2019/09/25/lecture-notes-join-operations-using-dplyr/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/25/lecture-notes-join-operations-using-dplyr/</guid>
+      <description>Resources  The “two-table verbs” vignette for dplyr.  Note: a vignette is a how-to guide for a package, and any reputable package will have one. A vignette complements the function documentation by demonstrating how you might use the package in real life, with concrete examples.  The relational data chapter in R for Data Science.  To learn about joining data frames, we’ll use the data sets in the nycflights13 package.</description>
+    </item>
+    
+    <item>
+      <title>Script for lecture, 25 Sept</title>
+      <link>/490_590_2019/2019/09/25/script-for-lecture-25-sept/</link>
+      <pubDate>Wed, 25 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/25/script-for-lecture-25-sept/</guid>
+      <description>Please copy-paste the code below to download and pre-process some data you&amp;rsquo;ll use in the in-class exercise today.
+# Setup for in-class exercise library(tidyverse) countries_data &amp;lt;- read_csv(&amp;quot;https://raw.githubusercontent.com/adsteen/490_590_2019/gh-pages/data/country_capital.csv&amp;quot;) %&amp;gt;% mutate(growth.2002.2008 = as.numeric(str_remove(growth.2002.2008, &amp;quot;%&amp;quot;)))  </description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Reshaping with tidyr</title>
+      <link>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</link>
+      <pubDate>Mon, 23 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/23/lecture-notes-reshaping-with-tidyr/</guid>
+      <description>Resources  Software Carpentry tidyr lesson  Gapminder in wide format Remember that the “standard” (long-ish) gapminder data set can be loaded from the gapminder package  Tidyr homepage The tidy data chapter in R for Data Science.  Useful ggplot2 worked examples  Claus Wilke’s guide to publishable ggplots. (This isn’t relevant to today’s lesson, but it’s a useful resource).    Reshaping data with tidyr Think about what a ‘long’ format data frame is: each row is an observation, and each column is a variable.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Intro to dplyr</title>
+      <link>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</guid>
+      <description>Resources  Original paper (although note that the package that paper describes, plyr, has been replaced by the tidyverse package dplyr, which has totally different syntax.) Software Carpentry lessons:  Split-apply-combine conceptual introduction Implementation in dplyr Note that, for some reason, the first Software Carpentry lesson is in plyr and the second is is in dplyr. This really makes no sense, as dplyr is the replacement for plyr - you’re not supposed to use them at the same time, and indeed loading them at the same time will cause some really weird stuff to happen.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Intro to dplyr</title>
+      <link>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</link>
+      <pubDate>Fri, 20 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/20/lecture-notes-intro-to-dplyr/</guid>
+      <description>Resources  Original paper (although note that the package that paper describes, plyr, has been replaced by the tidyverse package dplyr, which has totally different syntax.) Software Carpentry lessons:  Split-apply-combine conceptual introduction Implementation in dplyr Note that, for some reason, the first Software Carpentry lesson is in plyr and the second is is in dplyr. This really makes no sense, as dplyr is the replacement for plyr - you’re not supposed to use them at the same time, and indeed loading them at the same time will cause some really weird stuff to happen.</description>
+    </item>
+    
+    <item>
+      <title>Homework 5: Basic R and intro to the tidyverse</title>
+      <link>/490_590_2019/2019/09/18/homework-5-basic-r-and-intro-to-the-tidyverse/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/18/homework-5-basic-r-and-intro-to-the-tidyverse/</guid>
+      <description>Vector coercion: Explain what data type each vector will be coerced to, and why.  c(TRUE, FALSE) c(&amp;quot;a&amp;quot;, FALSE) c(7, &amp;quot;f&amp;quot;)  Factors Load the gapminder data frame via the gapminder package:
+library(gapminder) Create a new data frame called gapminder_fake. Add a new row, before all other rows, with the following values:
+ country = “Florin” continent = “Antarctica” year = 2020 lifeExp = 83 pop = 7 gdpPercap = 1023    Subsetting data frames and lists in base R Subsetting data frames Create a data frame that consists of the first 5 rows of gapminder</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Subsetting and working with data frames</title>
+      <link>/490_590_2019/2019/09/17/lecture-notes-subsetting-and-working-with-data-frames/</link>
+      <pubDate>Tue, 17 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/17/lecture-notes-subsetting-and-working-with-data-frames/</guid>
+      <description>Resources Split-apply-combine  Original paper (although note that the package that paper describes, plyr, has been replaced by the tidyverse package dplyr, which has totally different syntax.) Software Carpentry lessons:  Split-apply-combine conceptual introduction Implementation in dplyr Note that, for some reason, the first Software Carpentry lesson is in plyr and the second is is in dplyr. This really makes no sense, as dplyr is the replacement for plyr - you’re not supposed to use them at the same time, and indeed loading them at the same time will cause some really weird stuff to happen.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: A few comments on color scales</title>
+      <link>/490_590_2019/2019/09/16/lecture-notes-a-few-comments-on-color-scales/</link>
+      <pubDate>Mon, 16 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/16/lecture-notes-a-few-comments-on-color-scales/</guid>
+      <description>Types of color scales for types of data  Qualitative color scales: Data in unordered categories  e.g. regions of the country (Northeast, Midwest, South)  Sequential color scales: Data in an ordered variable  e.g. income (continuous numeric variable ranging from $0 to some high number)  Diverging color scales: Data in that diverge from some neutral midpoint  e.g. relative values of a continuous numeric variable compared to a mean, where negative values indicate lower than average and positive values indicate higher than average.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: ggplot2 part 3, multiple data sets and themes</title>
+      <link>/490_590_2019/2019/09/10/lecture-notes-ggplot2-part-3-multiple-data-sets-and-themes/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/10/lecture-notes-ggplot2-part-3-multiple-data-sets-and-themes/</guid>
+      <description>Good style for writing ggplot code ggplot2 can be though of as building a plot from layers (data, then mappings, then geoms, etc…) so our code should reflect this.
+Accordingly, we should write the code in a specific order:
+ggplot() call geoms (note that each geom is plotted on top of the previous one) stats scales facets themes and ggtitle()  ggplot2 requires that the ggplot function comes first, but after that it will allow you to write the plot in any order.</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: More about ggplot2</title>
+      <link>/490_590_2019/2019/09/09/lecture-notes-more-about-ggplot2/</link>
+      <pubDate>Mon, 09 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/09/lecture-notes-more-about-ggplot2/</guid>
+      <description>Here is the code from Sept 9, again modified lightly from the software carpentry lesson.
+Basics R structures  Every noun is an object  We’ll tak more about this later  Every verb is a function  Functions can be identified by parentheses  c() calls the concatenation function c could store anything (a vector, a list, or the c() function)     Getting help StackOverflow  Stackoverflow is full of help for all kinds of sofware issues (for R and every other language under the sun).</description>
+    </item>
+    
+    <item>
+      <title>Homework 4: BADPLOT</title>
+      <link>/490_590_2019/2019/09/06/homework-4-badplot/</link>
+      <pubDate>Fri, 06 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/06/homework-4-badplot/</guid>
+      <description>It&amp;rsquo;s the most wonderful time of the year Homework 4 is simple: Considering what you have learned from Kieran Healy and Claus Wilke about what makes a good data visualization, use ggplot2 and any data you choose to make the worst data visualization you can.
+Before the start of class on Friday, upload a .png file of your plot to this link. The plot should be roughly 5 inches wide by 4 inches high, encoded at 300 dpi.</description>
+    </item>
+    
+    <item>
+      <title>Homework 3 completion checklist</title>
+      <link>/490_590_2019/2019/09/05/homework-3-completion-checklist/</link>
+      <pubDate>Thu, 05 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/05/homework-3-completion-checklist/</guid>
+      <description>The completion checklist that I will hand out is posted here.
+Please note that in the future we will get strict about the style guide, but at the moment I would just like you to generally write your code in a legible way (appropriate spacing between blocks of code, avoid wacky line breaks and terrible variable names, etc).
+Finally note that, in general, the homework rubrics will be the same:</description>
+    </item>
+    
+    <item>
+      <title>Lecture notes: Introduction to ggplot2</title>
+      <link>/490_590_2019/2019/09/04/lecture-notes-introduction-to-ggplot2/</link>
+      <pubDate>Wed, 04 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/04/lecture-notes-introduction-to-ggplot2/</guid>
+      <description>Reminders  We can load data from text files using read.csv() (base R) or read_csv() (tidyverse)  A csv file (“comma-separated value”) is a text file where the columns are separated by commas Because csv files are both easily machine-readable and human-readable, they are probably the best choice for storing data, unless the data files are very big or very complex. In general, you should store your data as .</description>
+    </item>
+    
+    <item>
+      <title>GEOL 490/590 style guide</title>
+      <link>/490_590_2019/2019/09/03/geol-490-590-style-guide/</link>
+      <pubDate>Tue, 03 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/09/03/geol-490-590-style-guide/</guid>
+      <description>Style is substance Donald Knuth famously wrote &amp;ldquo;Instead of imagining that our main task is to instruct a computer what to do, let us concentrate rather on explaining to human beings what we want a computer to do.&amp;rdquo; (Knuth, 1983, Literate Programming).
+Accordingly, it is important to write our code so that it is easily readable by humans. What defines easily readable? Well, it helps for the whole community of readers to be working from a common set of rules.</description>
+    </item>
+    
+    <item>
+      <title>Homework 3</title>
+      <link>/490_590_2019/2019/08/29/homework-3/</link>
+      <pubDate>Thu, 29 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/29/homework-3/</guid>
+      <description>Data visualization theory  Read Healy chapters 1-4. Bring two plots you found in the primary literature (printed out, ideally)  One that you think succeeds in an interesting way One that you think fails in an interesting way For the one that fails: do a pen-and-paper sketch of how it might be improved. No need to be precise, the goal is just to communicate the gist of what a better version of that plot would look like.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 3 notes: RStudio and the beginnings of R</title>
+      <link>/490_590_2019/2019/08/28/lecture-3-notes/</link>
+      <pubDate>Wed, 28 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/28/lecture-3-notes/</guid>
+      <description>note The content of this lesson is taken from one of Software Carpentry&amp;rsquo;s R lessions
+Some key points are noted below, but definitely look over that lesson (which we will continue to work from). This material goes a bit beyond what we covered in lecture 3. We will focus on creating plots the week of Sept 4, but we will come back to these basic operations as the semester progresses.</description>
+    </item>
+    
+    <item>
+      <title>Lecture 2: R, RStudio, and Bash</title>
+      <link>/490_590_2019/2019/08/25/lecture-2-r-rstudio-and-bash/</link>
+      <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/25/lecture-2-r-rstudio-and-bash/</guid>
+      <description>RStudio, R, and directories  Rstudio vs R Other ways to run R interactively within command line: &amp;ldquo;R&amp;rdquo; Rscript from the command line: more on this later  From Software Carpentry Very brief intro to some key things you can do with the shell. Note that these are condensed from the Software Carpentry shell lesson
+ pwd (note windows vs OSX/Linux)  note / means two different things; and in Windows it&amp;rsquo;s \ Note ~ vs /  cd  .</description>
+    </item>
+    
+    <item>
+      <title>Week 1 homework</title>
+      <link>/490_590_2019/2019/08/23/week-1-homework/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/23/week-1-homework/</guid>
+      <description> Assignment  Write up a 1-page (or less) bulleted set of guidelines for best practices in reproducible research Write a paragraph describing the &amp;ldquo;Reinhart-Rogoff affair&amp;rdquo; and what it has to do with open science and reproducible data analysis. Install the following on your laptop:  R Rstudio git Bash, if using Windows (see syllabus)  Using the RStudio console (usually the lower-left hand window), calculate 2 + 2 Using the Bash console, having installed git, determine your version of the git software by typing git --version and pressing enter  </description>
+    </item>
+    
+    <item>
+      <title>Week 2 homework</title>
+      <link>/490_590_2019/2019/08/23/week-2-homework/</link>
+      <pubDate>Fri, 23 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/23/week-2-homework/</guid>
+      <description>Tasks: Setup  Create a directory for this class. Place it somewhere logical on your hard drive (e.g. &amp;ldquo;~/Documents/classes/GEOL_590&amp;rdquo;, not &amp;ldquo;~/Desktop/stuff&amp;rdquo;). Create an RStudio project in that directory. Create the following directories within your project directory. Pay attention to capitalization!  data R plots misc  Download all_med_activities.csv and save it to your data directory Open RStudio and run the following command, to install the tidyverse set of packages: install.</description>
+    </item>
+    
+    <item>
+      <title>Week 1 Reading</title>
+      <link>/490_590_2019/2019/08/22/reading/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/490_590_2019/2019/08/22/reading/</guid>
+      <description> Due 23 Aug  Millman &amp;amp; Perez Economist on Reinhart &amp;amp; Rogoff  </description>
     </item>
     
   </channel>
