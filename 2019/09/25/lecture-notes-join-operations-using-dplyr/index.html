@@ -10,7 +10,7 @@
 <meta property="og:title" content="Lecture notes: Join operations using dplyr - Geology 490/590 2019">
 
 
-  <link href='/490_590_2019/lab_logo_aidia_2016_xgC_icon.ico' rel='icon' type='image/x-icon'/>
+  <link href='/490_590_2019/lab_logo_aidia_2016.ico' rel='icon' type='image/x-icon'/>
 
 
 
@@ -197,13 +197,13 @@ flights %&gt;%
   merge(flights, airlines)
 })</code></pre>
 <pre><code>##    user  system elapsed 
-##   1.113   0.041   1.153</code></pre>
+##   1.208   0.047   1.256</code></pre>
 <pre class="r"><code>system.time({
   left_join(flights, airlines)
 })</code></pre>
 <pre><code>## Joining, by = &quot;carrier&quot;</code></pre>
 <pre><code>##    user  system elapsed 
-##   0.041   0.011   0.053</code></pre>
+##   0.049   0.015   0.063</code></pre>
 <p>Wow! <code>merge()</code> usually takes more than a second, while <code>left_join()</code> is closer to 1/20 of a second! That’s a big difference!</p>
 </div>
 
